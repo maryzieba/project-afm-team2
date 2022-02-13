@@ -3783,3 +3783,14 @@ input, select, textarea {
 			}
 
 		}
+		.opiskwiatow {
+			text-align: justify;
+			padding-left: 10px;
+		}
+		.krokus, .zonkil, .bazie {
+			width: 15%;
+			height: 200px;
+			float: left;
+			padding: 10px;
+
+		}
