@@ -2651,6 +2651,7 @@ input, select, textarea {
 				height: 2px;
 				margin: 0.7em 0 1em 0;
 				border-radius: 2px;
+			
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
@@ -2681,6 +2682,7 @@ input, select, textarea {
 		header.major {
 			margin-bottom: 0;
 		}
+		
 
 			header.major h2 {
 				font-size: 1.5em;
@@ -3352,7 +3354,7 @@ input, select, textarea {
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			background-color: rgb(0, 255, 85);
 		}
 
 		#main blockquote {
