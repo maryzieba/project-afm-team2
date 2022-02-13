@@ -4222,6 +4222,12 @@ body.is-preload #header.alt .logo {
 .flowers {
   background-image: linear-gradient(rgb(199, 248, 199), rgb(188, 188, 253));
 }
+.flowers {
+  background-image: linear-gradient(rgb(199, 248, 199), rgb(188, 188, 253));
+}
+.icon-flower {
+  width: 18rem;
+}
 .icon-flower {
   width: 18rem;
 }
