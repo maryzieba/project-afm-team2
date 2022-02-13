@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #EDE580;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #A4AF69 15%, #EDE580  85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #A4AF69 15%, #EDE580  85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #A4AF69 15%, #EDE580   85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #A4AF69 15%, #EDE580 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3697,6 +3697,35 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 	}
 
+	@keyframes bounce {
+		0%, 20%, 60%, 100% {
+		    -webkit-transform: translateY(0);
+		    transform: translateY(0);
+		}
+		40% {
+		    -webkit-transform: translateY(-20px);
+		    transform: translateY(-20px);
+		}
+		80% {
+		    -webkit-transform: translateY(-10px);
+		    transform: translateY(-10px);
+		}
+	}
+
+		.icons :hover{
+		animation: bounce 1s;
+		background: -webkit-linear-gradient(yellow, red);
+  	    -webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+
+		#wiosnaAstro {
+			font-weight: bolder;
+			background: -webkit-linear-gradient(yellow, red);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
 		#footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
@@ -3783,5 +3812,16 @@ input, select, textarea {
 			#wrapper {
 				max-width: 100%;
 			}
+
+		}
+		.opiskwiatow {
+			text-align: justify;
+			padding-left: 10px;
+		}
+		.krokus, .zonkil, .bazie {
+			width: 15%;
+			height: 200px;
+			float: left;
+			padding: 10px;
 
 		}
